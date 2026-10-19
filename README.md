@@ -41,7 +41,7 @@ containing the product.
 ## Installation
 
 ```sh
-composer require silvershop/downloads
+composer require silvershop-suite/downloads
 ```
 
 Then run `dev/build?flush=all`.

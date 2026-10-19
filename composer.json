@@ -1,5 +1,5 @@
 {
-    "name": "silvershop/downloads",
+    "name": "silvershop-suite/downloads",
     "description": "Downloadable (digital) products for SilverShop: attach files to a product and let paying customers download them through a secure, ownership-checked link.",
     "type": "silverstripe-vendormodule",
     "keywords": ["silverstripe", "silvershop", "ecommerce", "downloads", "digital", "downloadable"],
