@@ -107,3 +107,7 @@ Access is granted only once the order is **paid**; expiry is counted from the or
 ## License
 
 BSD-3-Clause. See [LICENSE](LICENSE).
+
+## Credits
+
+Built and maintained by **Remy Vaartjes** (<remy@xd.nl>) — part of the **SilverShop-Suite**.
