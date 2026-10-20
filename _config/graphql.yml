@@ -1,0 +1,14 @@
+---
+Name: silvershop-downloads-graphql
+Only:
+  moduleexists: 'silvershop-suite/api-graphql'
+After:
+  - '#graphql-schema-default'
+---
+# Registers this module's _graphql/ type fragment into the default schema — only when the GraphQL overlay is
+# installed, so downloads stays standalone. Adds Product.downloadable, which rides the REST DownloadProductEnrichment.
+SilverStripe\GraphQL\Schema\Schema:
+  schemas:
+    default:
+      src:
+        silvershop-downloads: 'silvershop-suite/downloads: _graphql'
